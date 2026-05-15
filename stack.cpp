@@ -26,6 +26,7 @@ class stack
 
     int push(int value)
     {
-        
+        node *newnode = new node();
+        newnode->data = value;
     }
 };
