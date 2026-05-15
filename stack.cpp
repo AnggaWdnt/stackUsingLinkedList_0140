@@ -28,5 +28,7 @@ class stack
     {
         node *newnode = new node();
         newnode->data = value;
+        newnode->next = top;
+        top = newnode;
     }
 };
