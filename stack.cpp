@@ -42,5 +42,7 @@ class stack
             cout << "Stack is empty." << endl;
             return;
         }
+
+        cout << "Popped value:" << temp->data << endl;
     }
 };
