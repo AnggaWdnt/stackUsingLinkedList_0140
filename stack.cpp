@@ -12,3 +12,9 @@ class node
         next = NULL;
     }
 };
+
+class stack
+{
+    private:
+    node *top;
+};
