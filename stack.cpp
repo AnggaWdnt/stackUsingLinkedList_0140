@@ -47,4 +47,9 @@ class stack
         top = temp-> next;
         delete temp;
     }
+
+    void peek()
+    {
+        
+    }
 };
